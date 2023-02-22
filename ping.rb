@@ -13,12 +13,7 @@ require 'discordrb'
 # you, look here: https://github.com/discordrb/discordrb/wiki/Redirect-URIs-and-RPC-origins
 # After creating the bot, simply copy the token (*not* the OAuth2 secret) and put it into the
 # respective place.
-bot = Discordrb::Bot.new token: 'MTA3NjUzMzAzNjIyNjcxOTc0NQ.G4B75n.ump0E7Djlld-LPpHwZobiRSUk_HlIUd9sLMEbs'
-
-# Here we output the invite URL to the console so the bot account can be invited to the channel. This only has to be
-# done once, afterwards, you can remove this part if you want
-puts "This bot's invite URL is #{bot.invite_url}."
-puts 'Click on it to invite it to your server.'
+bot = Discordrb::Bot.new token: ''
 
 # This method call adds an event handler that will be called on any message that exactly contains the string "Ping!".
 # The code inside it will be executed, and a "Pong!" response will be sent to the channel.
