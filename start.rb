@@ -46,5 +46,5 @@ end
 at_exit { bot.stop }
 bot.run(true)
 
-#bot.send_message(958728102329086005, "Бот тварь вербовання")
+#bot.send_message(, "")
 bot.join
